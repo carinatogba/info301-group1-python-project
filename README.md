@@ -48,8 +48,6 @@ Keep the header rows when editing files, and close the program before making
 manual CSV edits. Invalid existing data is reported at startup without
 overwriting it. Back up the `data/` folder to preserve your records.
 
-Run the automated checks with:
-
 ```console
 python -m unittest discover -s tests -v
 ```
